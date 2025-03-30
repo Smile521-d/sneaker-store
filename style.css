@@ -1,0 +1,135 @@
+/* Import Google Font (Poppins) */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+/* General styling */
+body {
+    font-family: 'Poppins', sans-serif; /* Use Poppins font */
+    background: linear-gradient(to right, #ff416c, #ff4b2b); /* Vibrant red-orange gradient background */
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Styling */
+header {
+    background-color: rgba(0, 0, 0, 0.7); /* Transparent black */
+    padding: 20px;
+}
+
+/* Navigation Menu */
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px; /* Slightly larger font for better readability */
+    transition: color 0.3s ease-in-out;
+}
+
+nav a:hover {
+    color: #ffcc00; /* Change color on hover */
+}
+
+/* Hero Section */
+.hero {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 32px; /* Larger heading for more impact */
+    font-weight: 600; /* Bold heading */
+}
+
+.hero p {
+    font-size: 20px;
+    font-weight: 300; /* Lighter text for the paragraph */
+    margin-top: 10px;
+}
+
+/* Button Styling */
+.btn {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 12px 25px;
+    font-size: 20px;
+    background-color: #ffcc00;
+    color: black;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: 600;
+    transition: 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #ff9900;
+    transform: scale(1.1); /* Slight scaling on hover for a dynamic effect */
+}
+
+/* Contact Form */
+form {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 25px;
+    width: 80%;
+    max-width: 500px;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.3); /* Soft shadow for depth */
+}
+
+form label {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: 600; /* Bold labels */
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 2px solid #ffcc00; /* Yellow border for inputs */
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.3); /* Light background */
+    color: white;
+}
+
+form input:focus, form textarea:focus {
+    border-color: #ff9900; /* Change border on focus */
+    outline: none;
+}
+
+/* Submit Button in Form */
+button {
+    padding: 12px 20px;
+    font-size: 18px;
+    background-color: #ffcc00;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: background-color 0.3s, transform 0.2s ease;
+}
+
+button:hover {
+    background-color: #ff9900;
+    transform: scale(1.05); /* Slight scaling effect */
+}
+
+/* Footer */
+footer {
+    margin-top: 30px;
+    padding: 15px;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+}
+
+footer a {
+    color: #ffcc00;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}

@@ -1,0 +1,51 @@
+[
+    {
+      "id": 1,
+      "name": "Air Max 90",
+      "brand": "Nike",
+      "size": "7,8,9,10",
+      "description": "Classic Air Max with ultimate comfort and style.",
+      "image": "/images/airmax90.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Jordan 1",
+      "brand": "Nike",
+      "size": "9,10,11",
+      "description": "A legendary basketball sneaker with timeless appeal.",
+      "image": "/images/jordan1.jpg"
+    },
+    {
+      "id": 3,
+      "name": "New Balance 550",
+      "brand": "New Balance",
+      "size": "8,9,10,11",
+      "description": "Retro-inspired sneakers with a modern touch.",
+      "image": "/images/nb550.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Puma RS-X",
+      "brand": "Puma",
+      "size": "9,10.5",
+      "description": "Chunky design with a bold streetwear aesthetic.",
+      "image": "/images/rsx.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Ultraboost",
+      "brand": "Adidas",
+      "size": "6,7,8,9,10",
+      "description": "Maximum comfort and performance running shoes.",
+      "image": "/images/ultraboost.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Yeezy 350",
+      "brand": "Adidas",
+      "size": "6.5,7.5,9.5",
+      "description": "Iconic design with innovative materials.",
+      "image": "/images/yeezy350.jpg"
+    }
+  ]
+  
